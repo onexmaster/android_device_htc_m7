@@ -65,3 +65,6 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # inherit from the proprietary version
 -include vendor/htc/m7/BoardConfigVendor.mk
+
+#Kernel config
+TARGET_KERNEL_CONFIG := slim_m7_defconfig

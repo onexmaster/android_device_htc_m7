@@ -15,13 +15,13 @@
 $(call inherit-product, device/htc/m7/full_m7.mk)
 
 # Inherit CM full phone configuration
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
 
 # Device naming
-PRODUCT_NAME := slim_m7
+PRODUCT_NAME := tesla_m7
 
 # Override build props
 PRODUCT_BUILD_PROP_OVERRIDES += \
